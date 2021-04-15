@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col s12 m8">
+        <h3>{{blog.title}}
+            <br>
+            <br>
+            <img src="{{blog.image}}" alt="blog image" width="100%">
+            <small>{{{editIcon blog.user user blog._id false}}}</small>
+        </h3>
+        <div class="card blog">
+            <div class="card-content">
+                <span class="card-title">{{formatDate date 'MMMM Do YYYY, h:mm:ss a'}}</span>
+                {{{blog.body}}}
+            </div>
+        </div>
+        <div class="card-comment">
+            {{{blog.comment}}}
+        </div>
+    </div>
+    <div class="col s12 m4">
+        <div class="card center-align">
+            <div class="card-content">
+                <span class="card-title">{{blog.user.displayName}}</span>
+                <img src="{{blog.user.image}}" class="circle responsive-img img-small">
+            </div>
+            <div class="card-action">
+                <a href="/blogs/user/{{blog.user._id}}">More From {{blog.user.firstName}}</a>
+            </div>
+        </div>
+    </div>
+</div>

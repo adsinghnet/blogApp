@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(20, 20, 20);
+}
+p {
+  margin: 10px 0 !important;
+  color: #fff;
+  font-family: cursive;
+  
+}
+
+.login-container {
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.fa-small {
+  font-size: 16px !important;
+  
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+  
+}
+
+.img-small {
+  width: 180px;
+}
+.card{
+  background-color: rgb(0, 41, 46);
+}
+h1{
+  color: white;
+  font-weight: bolder;
+}
+h3{
+  color: yellow;
+  font-weight: bold;
+}
+h5{
+  color: yellow;
+  font-weight: bold;
+}
+
+span{
+  color: gray;
+}
+.sidenav {
+  background-color: rgb(20, 20, 20);
+}
+.sidenav li a{
+  color: #fff;
+}
+th{
+  color: gray;
+}
+tbody *{
+  color: #fff;
+}
+.input-field *{
+  color: #fff;
+}
+#status{
+  color: #fff;
+}
