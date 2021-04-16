@@ -42,7 +42,7 @@ GOOGLE_CLIENT_SECRET = hzvlB7ZECoJBf9OEtIZMaQCj
 ```
 
 ## In case of error while running npm install command
-Download: https://drive.google.com/file/d/1qb6QlF-4fVZ9Wvg5JAHmwZYrTZ2-QPwJ/view?usp=sharing
+Download: ***[https://drive.google.com/file/d/1OKuw_hyuoxdFpQrxnEeealT2mUChyYAu/view?usp=sharing](https://drive.google.com/file/d/1OKuw_hyuoxdFpQrxnEeealT2mUChyYAu/view?usp=sharing)***
 
 ```
 # Run in development
